@@ -4,10 +4,11 @@ font-family: 'Bebas Neue', cursive;
 font-family: 'Poppins', sans-serif;
 margin: 0;
 paddding: 0;
+background-image: url(images/top-banner.png);
+background-repeat: no-repeat;
+
 }
 .frist-part{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
     
     display: flex;
     margin-top: 100px;
@@ -20,6 +21,7 @@ paddding: 0;
 .about-me p{
     font-weight: 600;
     font-size: 25px;
+    padding-right: 50px;
     
 }
 .about-me h1{
@@ -28,8 +30,12 @@ paddding: 0;
 h1 .orange-color{
     color: orange;
 }
-.my-photo{
-    width: 200px;
+h3 .orange-color{
+    color: orange;
+}
+.my-photo img{
+    width: 80%;
+    padding-right: 100px;
 }
 a{
     text-decoration: none;
@@ -37,6 +43,14 @@ a{
     border-radius: 10px;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 20px;
+    margin-left: 300px;
+}
+img{
+    float: right;
     
 }
-
+.image-add{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
