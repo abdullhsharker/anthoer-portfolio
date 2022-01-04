@@ -54,3 +54,51 @@ img{
     background-repeat: no-repeat;
     background-position: right;
 }
+h1{
+    font-size: 50px;
+    
+}
+.box-shadow{
+    width:90%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid;
+    
+    
+}
+.box-shadow-two{
+    width: 90%;
+    
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid;
+    
+
+}
+.all{
+    display: flex;
+    margin: 150px 0px;
+    
+}
+.third-part h1{
+    font-size: 45px;
+    height: 10px;
+}
+ .third-part{
+     background-image: url(images/exp-bg.png);
+     background-repeat: no-repeat;
+    
+ }
+ footer{
+     text-align: center;
+     margin-bottom: 100px;
+     font-size: 20px;
+ }
